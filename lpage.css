@@ -1,0 +1,236 @@
+
+.logo {
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu a::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid white;
+    color: black;
+    transition: 0.4s linear;
+}
+.menu a:hover:before{
+    width: 90%;
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(255,255,255,255)),url('Pics/icons8-team-y2T5hT7pWx4-unsplash.jpg');
+    background-position: center;
+    font-family: sa;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: white;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.register a:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.headtext {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.headtext span {
+    font-size: 2em;
+    font-family: sans-serif;
+    padding-top: 60px;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.headtext h1 {
+    font-size: 2em;
+    font-family: sans-serif;
+    padding-top: 60px;
+}
+
+.headtext a {
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background: #fff;
+    height: 55px;
+    display: flex;
+    border-radius: 10px;
+}
+form input{
+    flex: 1;
+    width: 600px;
+    border: none;
+    outline: none;;
+}
+form button{
+   background: white;
+   padding: 5px 20px;
+   border: 1px solid black;
+   outline: none;
+   font-weight: lighter;
+   letter-spacing: 1px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-style: bold;
+}
+form .fa-search{
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+}
+
+.section a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 40px;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    left: 250px;
+    background: white;
+}
+.section a::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid black;
+    transition: 0.4s linear;
+}
+.section a:hover:before{
+    width: 90%;
+}
+.order a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: black;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+.order a:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.deals{
+    height: 88%;
+    padding: 50px 100px;
+}
+
+.deals p{
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.card{
+    width: 40%;
+    height: 50%;
+    float: right;
+    
+    border-radius: 10px;
+    padding: 105px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 60px 15px;
+    background-image: url('Pics/elsa-olofsson-Pm0K9Y3EPUc-unsplash.jpg');
+    background-size: cover;
+}
+
+.explore a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 220px;
+    font-size: 20px;
+    background: black;
+    border-radius: 20px;
+    transition: 0.1s;
+    text-align: center;
+}
+.explore a:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+}
+.social{
+    text-align: center;
+    margin: 0 13px;
+    cursor: pointer;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+
+.more a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 50vh;
+}
